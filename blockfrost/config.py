@@ -5,6 +5,8 @@ import pkg_resources
 class ApiUrls(Enum):
     mainnet = 'https://cardano-mainnet.blockfrost.io/api'
     testnet = 'https://cardano-testnet.blockfrost.io/api'
+    preprod = 'https://cardano-preprod.blockfrost.io/api'
+    preview = 'https://cardano-preview.blockfrost.io/api'
     ipfs = 'https://ipfs.blockfrost.io/api'
 
 
